@@ -28,18 +28,18 @@ textarea {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 320px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   background: #171717;
   border-radius: 10px;
   box-shadow: 0 7px 30px rgba(75, 70, 6, 0.3);
 }
 
 .cover-img .cover-inner {
-  background: url(https://i.etsystatic.com/31033977/r/il/23e44a/3831886035/il_794xN.3831886035_ebek.jpg);
+  background: url(https://i.etsystatic.com/31033977/r/il/23e44a/3831886035/il_794xN.3831886035_ebek.jpg) no-repeat center center;
   height: 190px;
   background-size: 170px;
-  background-position: -8%;
+  background-position: center;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   position: relative;
